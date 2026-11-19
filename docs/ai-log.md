@@ -8,3 +8,4 @@
 | ID | Етап | Запит / Дія | Змінені файли | Статус | Примітки та діагностика |
 |---|---|---|---|---|---|
 | L-01 | Архітектура | Створення маніфесту агента (`build-engineer.agent.md`), опису архітектури (`architecture.md`) та інструкції (`usage.md`). | `.github/agents/build-engineer.agent.md`, `docs/architecture.md`, `docs/usage.md`, `docs/ai-log.md` | Успішно | Базова гілка `develop`: визначено роль, правила безпеки та fail-fast стратегію. |
+| L-02 | Навички (Skills) | Визначення модульних навичок `project-scaffold`, `build-and-test` і `github-actions`. | `.github/skills/project-scaffold/SKILL.md`, `.github/skills/build-and-test/SKILL.md`, `.github/skills/github-actions/SKILL.md`, `docs/ai-log.md` | Успішно | Задано вхідні/вихідні дані, перевірки та обробку помилок для кожного skill. |
